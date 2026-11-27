@@ -1,0 +1,24 @@
+// ~/.config/Code/User/keybindings.json  (Windows: %APPDATA%\Code\User\keybindings.json)
+[
+  {
+    "key": "ctrl+alt+t",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "ctrl+alt+f",
+    "command": "editor.action.formatDocument",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+s",
+    "command": "workbench.action.files.saveAll"
+  },
+  {
+    "key": "ctrl+alt+g",
+    "command": "git.sync"
+  },
+  {
+    "key": "ctrl+alt+d",
+    "command": "workbench.action.debug.start"
+  }
+]

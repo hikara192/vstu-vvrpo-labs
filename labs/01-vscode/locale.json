@@ -1,0 +1,5 @@
+{
+  // Файл ~/.config/Code/User/locale.json (Windows: %APPDATA%\Code\User\locale.json)
+  // После сохранения нужно установить языковой пакет и перезапустить VS Code.
+  "locale": "ru"
+}

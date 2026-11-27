@@ -1,0 +1,47 @@
+{
+  "Java: main method": {
+    "prefix": "psvm",
+    "body": [
+      "public static void main(String[] args) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Точка входа Java-программы"
+  },
+  "Java: System.out.println": {
+    "prefix": "sout",
+    "body": "System.out.println($1);$0",
+    "description": "Вывод строки в консоль"
+  },
+  "Java: logger info": {
+    "prefix": "logi",
+    "body": "LOGGER.info(\"$1\");$0",
+    "description": "Запись информационного сообщения в лог"
+  },
+  "Java: JUnit test": {
+    "prefix": "jtest",
+    "body": [
+      "@Test",
+      "void ${1:shouldDoSomething}() {",
+      "\t// given",
+      "\t$2",
+      "",
+      "\t// when",
+      "\t$3",
+      "",
+      "\t// then",
+      "\t$0",
+      "}"
+    ],
+    "description": "Шаблон юнит-теста JUnit 5"
+  },
+  "Java: try-with-resources": {
+    "prefix": "twr",
+    "body": [
+      "try (${1:Scanner scanner} = ${2:new Scanner(System.in)}) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Блок try-with-resources"
+  }
+}

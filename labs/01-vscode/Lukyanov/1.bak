@@ -1,0 +1,64 @@
+package by.vstu.isap.lab1;
+
+import java.util.Scanner;
+
+/**
+ * Учебный калькулятор для лабораторной работы №1.
+ * Файл 1.bak открывается в VS Code в режиме подсветки Java
+ * (files.associations: "*.bak": "java").
+ */
+public class Calculator {
+
+    // TODO: добавить проверку деления на ноль в методе divide
+    public static double divide(double a, double b) {
+        if (b == 0) {
+            throw new ArithmeticException("Деление на ноль запрещено");
+        }
+        return a / b;
+    }
+
+    public static double add(double a, double b) {
+        return a + b;
+    }
+
+    public static double subtract(double a, double b) {
+        return a - b;
+    }
+
+    public static double multiply(double a, double b) {
+        return a * b;
+    }
+
+    public static void main(String[] args) {
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.print("Введите первое число: ");
+            double a = scanner.nextDouble();
+
+            System.out.print("Введите операцию (+ - * /): ");
+            String operation = scanner.next();
+
+            System.out.print("Введите второе число: ");
+            double b = scanner.nextDouble();
+
+            double result;
+            switch (operation) {
+                case "+":
+                    result = add(a, b);
+                    break;
+                case "-":
+                    result = subtract(a, b);
+                    break;
+                case "*":
+                    result = multiply(a, b);
+                    break;
+                case "/":
+                    result = divide(a, b);
+                    break;
+                default:
+                    throw new IllegalArgumentException("Неизвестная операция: " + operation);
+            }
+
+            System.out.printf("Результат: %.2f%n", result);
+        }
+    }
+}

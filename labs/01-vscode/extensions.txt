@@ -1,0 +1,23 @@
+# Установленные расширения VS Code
+# Команда для получения списка: code --list-extensions --show-versions
+
+ms-ceintl.vscode-language-pack-ru
+redhat.java
+vscjava.vscode-java-pack
+vscjava.vscode-java-debug
+vscjava.vscode-java-test
+vscjava.vscode-maven
+vscjava.vscode-java-dependency
+vscjava.vscode-spring-initializr
+vscjava.vscode-spring-boot-dashboard
+wayou.vscode-todo-highlight
+eamodio.gitlens
+github.vscode-pull-request-github
+github.vscode-github-actions
+github.copilot
+dbaeumer.vscode-eslint
+esbenp.prettier-vscode
+editorconfig.editorconfig
+streetsidesoftware.code-spell-checker
+streetsidesoftware.code-spell-checker-russian
+mechatroner.rainbow-csv

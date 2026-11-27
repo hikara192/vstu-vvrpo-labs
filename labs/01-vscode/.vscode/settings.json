@@ -1,0 +1,63 @@
+{
+  "workbench.colorTheme": "Dark Modern",
+  "workbench.iconTheme": "vs-seti",
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 24,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "redhat.java",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "files.autoSave": "onFocusChange",
+  "files.associations": {
+    "*.bak": "java"
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/target": true
+  },
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.format.settings.url": ".vscode/eclipse-java-formatter.xml",
+  "java.format.settings.profile": "VSTU Java Style",
+  "java.saveActions.organizeImports": true,
+  "java.completion.importOrder": [
+    "java",
+    "javax",
+    "org",
+    "com"
+  ],
+  "todoHighlight.enabled": true,
+  "todoHighlight.foreground": "#FFD700",
+  "todoHighlight.background": "rgba(255, 215, 0, 0.18)",
+  "todoHighlight.regexes": {
+    "TODO": {
+      "regex": "(TODO|FIXME|HACK):?",
+      "foreground": "#FFD700"
+    }
+  },
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontSize": 14,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact"
+  ],
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 100,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
+}

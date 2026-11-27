@@ -1,0 +1,25 @@
+# Инструменты и сборочные артефакты
+.tools/
+**/node_modules/
+**/target/
+**/dist/
+**/build/
+**/.angular/
+
+# Отдельный репозиторий лабораторной работы №2
+labs/02-git/
+
+# Служебные файлы
+.DS_Store
+*.log
+logs/
+*.class
+*.jar
+!**/src/**/*.jar
+
+labs/calculator-unit-test-example-java/
+
+# Материалы, не входящие в репозиторий с исходным кодом
+/tools/
+/assets/
+/reports/
